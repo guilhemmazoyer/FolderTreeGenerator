@@ -9,7 +9,8 @@ APP_TITLE = ["Tree Generator", "Générateur d'arborescence"]
 
     ## Menus
 MENU_FILES_OPEN_FOLDER = ["Open Folder...", "Ouvrir un Dossier..."]
-MENU_FILES_RESET = ["Reset", "Réinitilisation"]
+MENU_FILES_RESET_PRESETS = ["Presets reset", "Réinitilisation des réglages"]
+MENU_FILES_RESET_OUTPUT = ["Output reset", "Réinitilisation du résultat"]
 MENU_FILES_EXIT = ["Exit", "Quitter"]
 MENU_FILES_TITLE = ["File", "Fichier"]
 MENU_LANGUAGE_TITLE = ["Language", "Langue"]
@@ -23,6 +24,15 @@ LABEL_STATUS = ["Waiting to scan a folder", "Attente de la récupération d'un d
 SUCCESS_STATUS = ["The folder was successfully scanned", "Le dossier a été récupéré avec succès"]
 ERROR_1_STATUS = ["This folder is nowhere to be found", "Ce fichier est introuvable"]
 ERROR_2_STATUS = ["This folder is nowhere to be found", "Ce fichier est introuvable"]
+
+    ## Ignore List
+LABELFRAME_IGNORE_LIST = ["Ignore List", "Liste à ignorer"]
+
+    ## Presets
+LABELFRAME_PRESETS_SELECTION = ["Scan presets", "Réglages"]
+CHECK_DEFAULT_IGNORE_LIST = ["Use the default ignore list", "Utiliser la liste à ignorer par défaut"]
+CHECK_CUSTOM_IGNORE_LIST = ["Use the custom ignore list", "Utiliser la liste à ignorer personnelle"]
+LABEL_RANGE_TO_SCAN = ["Range :", "Portée :"]
 
     ## Output
 LABELFRAME_OUTPUT = ["Output", "Résultat"]
