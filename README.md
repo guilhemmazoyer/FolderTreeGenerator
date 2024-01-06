@@ -2,15 +2,15 @@
 
 ## Fonctionnemment
 Le programme débute après que l'utilisateur ait choisit quel dossier traiter via le menu.
-Le programme va ensuite lister les éléments contenus dans le dossier et vérifie si l'élément est un fichier ou un dossier. Si c'est un fichier, il note le nom du fichier dans le résultat et continue à lire les élémennts. Si c'est un dossier, il le note dans le résultat puis répète l'action précédente sur lui-même pour lire récursivement les informations des sous-dossiers.
+Le programme va ensuite lister les éléments contenus dans le dossier et il vérifie si l'élément est un fichier ou un dossier. Si c'est un fichier, il note le nom du fichier dans le résultat et continue à lire les éléments. Si c'est un dossier, il le note dans le résultat puis répète l'action précédente sur lui-même pour lire récursivement les informations des sous-dossiers.
 
 ## Réglages
-Un premier réglage permet de définir la portée du programme, c'est à dire le nombre de niveau de sous-dossier auquel elle va accéder et afficher sur le résultat.<br>
+Un premier réglage permet de définir la portée du programme, c'est à dire le nombre de niveau de sous-dossier auquel il va accéder et afficher sur le résultat.<br>
 Un second permet d'activer ou non la liste à ignorer par défaut.<br>
 Le dernier permet d'activer ou non la liste à ignorer personnalisée.
 
 ### Listes à ignorer :
-Il existe dans le programme 2 listes permettant d'ignorer dans dossier lors de l'exécution. Une liste par défaut, qui ignore les dossiers ".git", ".vscode" et "\_\_pycache\_\_". Et une liste personnalisée où chaque utilisateur peut renseigner ses mots clés à ignorer.
+Il existe dans le programme 2 listes permettant d'ignorer des dossier lors de l'exécution. Une liste par défaut, qui ignore les dossiers ".git", ".vscode" et "\_\_pycache\_\_". Et une liste personnalisée où chaque utilisateur peut renseigner ses mots clés à ignorer.
 
 #### Exemples de liste personalisée :
 _.git,.pycharm,assets_<br>
